@@ -186,7 +186,7 @@
             this.textBox4.Location = new System.Drawing.Point(733, 141);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(152, 28);
+            this.textBox4.Size = new System.Drawing.Size(166, 28);
             this.textBox4.TabIndex = 16;
             this.textBox4.Text = "1.1.2000 8:00:00";
             // 
@@ -196,9 +196,9 @@
             this.textBox5.Location = new System.Drawing.Point(733, 187);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(152, 28);
+            this.textBox5.Size = new System.Drawing.Size(166, 28);
             this.textBox5.TabIndex = 17;
-            this.textBox5.Text = "2.1.2000 10:30:15";
+            this.textBox5.Text = "16.1.2000 10:30:15";
             // 
             // label3
             // 

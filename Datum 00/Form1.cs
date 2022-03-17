@@ -135,8 +135,11 @@ namespace Datum_00
             DateTime dt1 = DateTime.Parse(textBox4.Text);
             DateTime dt2 = DateTime.Parse(textBox5.Text);
 
-            
+            TimeSpan doba = dt2 - dt1;
 
+            MessageBox.Show("Uplynula doba " + doba.Days.ToString() + " dni " + doba.Minutes.ToString() + " minut " + doba.Seconds.ToString() + " sekund");
+            MessageBox.Show("Uplynula doba ve dnech " + doba.TotalDays.ToString());
+            MessageBox.Show("Uplynula doba v hodinach " + doba.TotalHours.ToString());
             //long x = TimeSpan.TicksPerSecond;
             //MessageBox.Show(x.ToString());
         }
